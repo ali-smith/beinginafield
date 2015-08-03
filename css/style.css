@@ -1,0 +1,231 @@
+/* ADDITIONAL APS RESET
+   ========================================================================== */
+
+
+HTML {
+	font-family: 'Oswald', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.hidden	{
+	display: none;
+}
+
+.vert-center {
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  position: relative;
+  top: 40%;
+}
+
+/*---------box sizing--------*/
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+/*--------clearfix--------*/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+.clearfix { 
+	display: inline-block; 
+}
+
+/*---------links reset--------*/
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* SITE STYLES
+   ========================================================================== */
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+header {
+	background: url("../images/field1366x768.jpg") no-repeat left;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: -100;
+}
+
+.headerTitle {
+	text-align: center;
+	width: 600px;
+	position: relative;
+	top: 30%;
+	left:50%;
+	margin-left: -300px;
+}
+
+.headerTitle h1{
+	/*font-family: 'Satisfy', cursive;*/
+	/*font-family: 'Dynalight', cursive;*/
+	font-weight: 300;
+	font-size: 72px;
+	color: #1674a4;
+	margin-bottom: -35px;
+}
+
+.subhead {
+	text-align: center;
+}
+
+.subhead h2 {
+	/*font-family: 'Lora', serif;*/
+	/*font-family: 'Pacifico', cursive;*/
+	/*font-family: 'Dynalight', cursive;*/
+	font-family: 'Satisfy', cursive;
+	/*font-weight: 400;*/
+	color: #16a48d;
+	font-size: 36px;
+}
+
+.content {
+	width: 100%;
+	margin-top: 1000px;
+	position: relative;
+}
+
+
+
+[class*='box-'] {
+	/*border: 1px solid blue;*/
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: #FFF;
+	text-align: center;
+	height: 300px;
+	width: 33.3%;
+	/*width at 50% will be 450px*/
+	min-width: 400px;
+	float: left;
+	cursor: pointer;
+}
+
+[class*='box-']:hover {
+
+	/*background: rgba(22, 116, 164, 0.5)*/
+}
+
+.box-1 {
+	background: url("../images/history.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.box-2 {
+	background: url("../images/things.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.box-3 {
+	background: url("../images/stuff.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.box-4 {
+	background: url("../images/am.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.box-5 {
+	background: url("../images/beginners.JPG") no-repeat center center;
+	background-size: cover;
+}
+
+.box-6 {
+	background: url("../images/stories.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+
+footer {
+	/*height: 200px;*/
+	width: 100%;
+	position: relative;
+}
+
+.footerContainer {
+	/*border: 1px solid purple;*/
+	color: #1674a4;
+
+	max-width: 400px;
+	margin: 75px auto;
+
+}
+
+.anchorWrapper {
+	/*border: 1px solid orange;*/
+	padding-left: 100px;
+	padding-right: 100px; 
+}
+
+.anchorWrapper h3 {
+	/*background-color: gray;*/
+	font-weight: 400;
+	text-align: center;
+	width: 100px;
+	float: left;
+
+}
+
+.iconWrapper {
+	/*border: 1px solid blue;*/
+	padding-left: 122px;
+	
+}
+
+.iconWrapper i {
+	margin-right: 25px;
+}
+
+.anchorWrapper a:hover, .iconWrapper i:hover {
+	color: #11587d;
+	cursor: pointer;
+}
+
